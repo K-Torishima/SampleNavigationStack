@@ -24,6 +24,15 @@
 		93490AB02A59C4D200D4CFA0 /* ChildView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AAF2A59C4D200D4CFA0 /* ChildView4.swift */; };
 		93490AB22A59CAA800D4CFA0 /* FifthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AB12A59CAA800D4CFA0 /* FifthView.swift */; };
 		93490AB52A5ACCB000D4CFA0 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AB42A5ACCB000D4CFA0 /* RoutingView.swift */; };
+		93490AB82A5AD4D000D4CFA0 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AB72A5AD4D000D4CFA0 /* RootTabView.swift */; };
+		93490ABA2A5AD4FF00D4CFA0 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AB92A5AD4FF00D4CFA0 /* Route.swift */; };
+		93490ABC2A5AD53F00D4CFA0 /* RootEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490ABB2A5AD53F00D4CFA0 /* RootEnvironment.swift */; };
+		93490ABF2A5AD88900D4CFA0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490ABE2A5AD88900D4CFA0 /* HomeView.swift */; };
+		93490AC12A5AD89A00D4CFA0 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AC02A5AD89A00D4CFA0 /* SearchView.swift */; };
+		93490AC32A5AD8AA00D4CFA0 /* MyPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AC22A5AD8AA00D4CFA0 /* MyPageView.swift */; };
+		93490AC52A5ADAE800D4CFA0 /* NavigationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AC42A5ADAE800D4CFA0 /* NavigationModifier.swift */; };
+		93490AC82A5ADF4F00D4CFA0 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AC72A5ADF4F00D4CFA0 /* UserView.swift */; };
+		93490ACA2A5AE37C00D4CFA0 /* ModalModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93490AC92A5AE37C00D4CFA0 /* ModalModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +54,15 @@
 		93490AAF2A59C4D200D4CFA0 /* ChildView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView4.swift; sourceTree = "<group>"; };
 		93490AB12A59CAA800D4CFA0 /* FifthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthView.swift; sourceTree = "<group>"; };
 		93490AB42A5ACCB000D4CFA0 /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
+		93490AB72A5AD4D000D4CFA0 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		93490AB92A5AD4FF00D4CFA0 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		93490ABB2A5AD53F00D4CFA0 /* RootEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootEnvironment.swift; sourceTree = "<group>"; };
+		93490ABE2A5AD88900D4CFA0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		93490AC02A5AD89A00D4CFA0 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		93490AC22A5AD8AA00D4CFA0 /* MyPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageView.swift; sourceTree = "<group>"; };
+		93490AC42A5ADAE800D4CFA0 /* NavigationModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationModifier.swift; sourceTree = "<group>"; };
+		93490AC72A5ADF4F00D4CFA0 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		93490AC92A5AE37C00D4CFA0 /* ModalModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +102,7 @@
 				9300AEF32A5559A900CA11EE /* SampleNavigationStackApp.swift */,
 				9300AEF52A5559A900CA11EE /* MainTabView.swift */,
 				93490AB42A5ACCB000D4CFA0 /* RoutingView.swift */,
+				93490AB62A5AD48000D4CFA0 /* RoutingSmple */,
 				9300AF012A5559BE00CA11EE /* Views */,
 			);
 			path = SampleNavigationStack;
@@ -102,7 +121,6 @@
 			children = (
 				93490AB32A5ACC7E00D4CFA0 /* Samples */,
 				93490AA82A58161700D4CFA0 /* Child */,
-				9300AF0C2A555B4600CA11EE /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -128,6 +146,39 @@
 				93490AB12A59CAA800D4CFA0 /* FifthView.swift */,
 			);
 			path = Samples;
+			sourceTree = "<group>";
+		};
+		93490AB62A5AD48000D4CFA0 /* RoutingSmple */ = {
+			isa = PBXGroup;
+			children = (
+				93490AB92A5AD4FF00D4CFA0 /* Route.swift */,
+				93490AC42A5ADAE800D4CFA0 /* NavigationModifier.swift */,
+				93490AC92A5AE37C00D4CFA0 /* ModalModifier.swift */,
+				93490AB72A5AD4D000D4CFA0 /* RootTabView.swift */,
+				93490ABB2A5AD53F00D4CFA0 /* RootEnvironment.swift */,
+				93490ABD2A5AD87400D4CFA0 /* Views */,
+				93490AC62A5ADE5900D4CFA0 /* SubViews */,
+			);
+			path = RoutingSmple;
+			sourceTree = "<group>";
+		};
+		93490ABD2A5AD87400D4CFA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93490ABE2A5AD88900D4CFA0 /* HomeView.swift */,
+				93490AC02A5AD89A00D4CFA0 /* SearchView.swift */,
+				93490AC22A5AD8AA00D4CFA0 /* MyPageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93490AC62A5ADE5900D4CFA0 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				9300AF0C2A555B4600CA11EE /* DetailView.swift */,
+				93490AC72A5ADF4F00D4CFA0 /* UserView.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,21 +251,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93490AC52A5ADAE800D4CFA0 /* NavigationModifier.swift in Sources */,
+				93490AC12A5AD89A00D4CFA0 /* SearchView.swift in Sources */,
 				93490AAC2A58166E00D4CFA0 /* ChildView3.swift in Sources */,
+				93490ABC2A5AD53F00D4CFA0 /* RootEnvironment.swift in Sources */,
+				93490AC82A5ADF4F00D4CFA0 /* UserView.swift in Sources */,
 				9300AF072A555A1000CA11EE /* ThirdView.swift in Sources */,
+				93490AB82A5AD4D000D4CFA0 /* RootTabView.swift in Sources */,
 				9300AEF62A5559A900CA11EE /* MainTabView.swift in Sources */,
 				9300AF0F2A557B9600CA11EE /* RootNavigationView.swift in Sources */,
 				9300AF032A5559E500CA11EE /* FirstView.swift in Sources */,
+				93490ACA2A5AE37C00D4CFA0 /* ModalModifier.swift in Sources */,
 				93490AB02A59C4D200D4CFA0 /* ChildView4.swift in Sources */,
 				93490AAA2A58164600D4CFA0 /* ChildView2.swift in Sources */,
 				9300AF0D2A555B4600CA11EE /* DetailView.swift in Sources */,
 				9300AF112A557C1A00CA11EE /* ContentView.swift in Sources */,
+				93490ABA2A5AD4FF00D4CFA0 /* Route.swift in Sources */,
 				9300AF052A5559FD00CA11EE /* SecondView.swift in Sources */,
+				93490AC32A5AD8AA00D4CFA0 /* MyPageView.swift in Sources */,
 				9300AEF42A5559A900CA11EE /* SampleNavigationStackApp.swift in Sources */,
 				93490AAE2A59C37500D4CFA0 /* FourthView.swift in Sources */,
 				93490AB52A5ACCB000D4CFA0 /* RoutingView.swift in Sources */,
 				93490AB22A59CAA800D4CFA0 /* FifthView.swift in Sources */,
 				9300AF0B2A555A8300CA11EE /* ChildView1.swift in Sources */,
+				93490ABF2A5AD88900D4CFA0 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-enum Route: Hashable {
+enum SampleRoute: Hashable {
     case view1
     case view2
     case view3
@@ -15,7 +15,7 @@ enum Route: Hashable {
 }
 
 class RootPath: ObservableObject {
-    @Published var path: [Route] = []
+    @Published var path: [SampleRoute] = []
 }
 
 struct RoutingView: View {
@@ -34,7 +34,7 @@ struct RoutingView: View {
             } label: {
                 Text("遷移４")
             }
-            .navigationDestination(for: Route.self) { route in
+            .navigationDestination(for: SampleRoute.self) { route in
                 // 画面遷移を列挙しておくとNavigationLinkで指定されていればどこの画面であろうと遷移できる
                 // ただし遷移したい画面にNavigaiton Stackがすでに実装されている場合NavigationDestination宣言に一致するものがないと言われ遷移でいない
                 switch route {

@@ -12,8 +12,11 @@ struct SampleNavigationStackApp: App {
     var body: some Scene {
         WindowGroup {
             //MainTabView()
-            RoutingView()
-                .environmentObject(RootPath())
+            //RoutingView()
+            //    .environmentObject(RootPath())
+            
+            RootTabView()
+                .environmentObject(RootEnvironment())
         }
     }
 }
